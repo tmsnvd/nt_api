@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  building_year: 2016-01-21
+  city_id: 
+  street_id: 
+  house_number: MyString
+  apartment_number: 1
+  user_id: 
+  status_id: 
+
+two:
+  building_year: 2016-01-21
+  city_id: 
+  street_id: 
+  house_number: MyString
+  apartment_number: 1
+  user_id: 
+  status_id: 

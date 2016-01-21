@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Building year:</strong>
+  <%= @rent_property.building_year %>
+</p>
+
+<p>
+  <strong>City:</strong>
+  <%= @rent_property.city %>
+</p>
+
+<p>
+  <strong>Street:</strong>
+  <%= @rent_property.street %>
+</p>
+
+<p>
+  <strong>House number:</strong>
+  <%= @rent_property.house_number %>
+</p>
+
+<p>
+  <strong>Apartment number:</strong>
+  <%= @rent_property.apartment_number %>
+</p>
+
+<p>
+  <strong>User:</strong>
+  <%= @rent_property.user %>
+</p>
+
+<p>
+  <strong>Status:</strong>
+  <%= @rent_property.status %>
+</p>
+
+<%= link_to 'Edit', edit_rent_property_path(@rent_property) %> |
+<%= link_to 'Back', rent_properties_path %>

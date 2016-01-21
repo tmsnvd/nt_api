@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :auctions
+
   resources :rent_properties
 
   resources :cities

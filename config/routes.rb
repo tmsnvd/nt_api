@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'fronts/index'
+
   resources :listings
 
   resources :auctions

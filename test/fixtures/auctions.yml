@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  start_price: 9.99
+  start_date: 2016-01-21
+  buynow_price: 9.99
+  minimal_price: 9.99
+  listing_id: 
+  user_id: 
+
+two:
+  start_price: 9.99
+  start_date: 2016-01-21
+  buynow_price: 9.99
+  minimal_price: 9.99
+  listing_id: 
+  user_id: 

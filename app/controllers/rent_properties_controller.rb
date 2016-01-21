@@ -29,6 +29,7 @@ class RentPropertiesController < ApplicationController
   # POST /rent_properties.json
   def create
     @rent_property = RentProperty.new(rent_property_params)
+    @rent_property.user = current_user
 
     respond_to do |format|
       if @rent_property.save
